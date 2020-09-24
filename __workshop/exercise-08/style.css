@@ -89,10 +89,16 @@ textarea {
   padding:8px 24px 8px 24px;
   background-color:white;
   text-decoration: none;
-  border:1px solid #0000ff;
+  border:1px solid lightblue;
   border-radius:0px;
+  transition:375ms;
+  transition-timing-function: ease-in-out;
+  transition-delay:0.1s;
 }
 
 .form-button:hover {
   cursor:hand;
+  color:white;
+  background-color:lightblue;
+  border:1px solid white;
 }
