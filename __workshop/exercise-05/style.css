@@ -1,0 +1,18 @@
+body {
+    margin:0;
+}
+
+img {
+    display:flex;
+    flex-wrap:wrap;
+    margin:2px;
+    width:30%;
+}
+
+.container {
+    display:flex;
+    /* width:100%; */
+    width:calc(50%-0px);
+    flex-wrap:wrap;
+    /* margin:1em; */
+}

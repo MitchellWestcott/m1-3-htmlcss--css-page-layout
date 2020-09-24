@@ -4,35 +4,95 @@ body {
 }
 
 .header {
+  background-color:rgb(4, 124, 236);
+  display:flex;
+  justify-content:space-around;
+  box-shadow: 0px 5px 5px lightslategrey;
 }
 
 .registration-form {
+  box-shadow: 1px 1px 5px lightslategrey;
+  border-style:solid;
+  border-width:1px;
+  border-radius:8px;
+  border-color:white;
+  width:80%;
+  margin-top:20px;
+  margin-left:10%;
+  /* display:inline-block;
+  text-align:left; */
+  display:inline-block;
+  padding:10px;
 }
 
 .text-field {
+  /* margin-left:42%;
+  margin-right:50%; */
+  border: 2px solid rgb(0, 0, 190);
+  border-radius: 4px;
+  display:flex;
+  justify-content:center;
+  margin-left:42%;
 }
 
 .radio-label,
 .checkbox-label {
+  /* display:flex;
+  justify-content: left; */
+  display:flex;
+  justify-content:left;
+  padding:6px;
 }
 
 label {
+  /* display:flex;
+  justify-content:center; */
+  display:flex;
+  justify-content:center;
 }
 
 .section {
+  /* display:flex;
+  text-align:center; */
+  display:inline-block;
+  text-align:left;
+  
 }
 
 .section > label {
+  /* display:flex;
+  justify-content:left; */
+  display:inline-block;
+  justify-content:left;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 
 select {
+  margin-left:10px;
 }
 
 textarea {
+  display:flex;
+  justify-content:center;
+  width:100%;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px lightslategrey;
+  border: 1px solid white;
+  background-color:#add8e649;
 }
 
 .form-button {
+  margin-left:46%;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:8px 24px 8px 24px;
+  background-color:white;
+  text-decoration: none;
+  border:1px solid #0000ff;
+  border-radius:0px;
 }
 
 .form-button:hover {
+  cursor:hand;
 }
