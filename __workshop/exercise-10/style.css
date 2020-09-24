@@ -23,6 +23,7 @@ body {
 }
 
 .cool {
+  outline:none;
   text-transform:uppercase;
   transition: all .2s ease-in-out;
   color:white;
@@ -34,5 +35,10 @@ body {
 }
 
 .cool:hover {
+  cursor:pointer;
   transform:scale(1.5);
+}
+
+.cool:active {
+  transform:scale(1.1);
 }
